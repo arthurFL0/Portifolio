@@ -61,8 +61,18 @@ body{
             width:5rem;
             background-color: #54b5b7;
             border-color: #54b5b7;
+            box-shadow: none !important
         }
-    
+        .btn{
+            box-shadow: none;
+        }
+        .btn-override:hover,
+        .btn-override:active,
+        .btn-override:focus,
+        .btn-override:visited{
+            outline: none;
+            box-shadow: none;
+        }
     
     }    
     

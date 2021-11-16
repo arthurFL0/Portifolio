@@ -12,8 +12,8 @@ const Card = ({img,titulo,desc,ref1,ref2}) => {
                 <p>{desc}</p>
             </div>
             <div class="card-button-holder">
-                <a class="btn btn-primary" href={ref1}>Visite</a>
-                <a class="btn btn-secondary" href={ref2}>GitHub</a>
+                <a class="btn btn-primary btn-override" href={ref1}>Visite</a>
+                <a class="btn btn-secondary btn-override" href={ref2}>GitHub</a>
             </div>
         </div>
     </div>
